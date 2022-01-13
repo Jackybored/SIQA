@@ -28,8 +28,8 @@ train_dir = './logs/events/train/'
 test_dir="./logs/events/"
 #the dataset path
 # TFRecord_path_train = "grad_dataset_new_dis/"
-TFRecord_path_train = "dataset/selected_cyc_mscn_med_30/"
-TFRecord_path_test="dataset/selected_cyc_mscn_med_30/"
+TFRecord_path_train = "dataset/"
+TFRecord_path_test="dataset/"
 #禁止显示运行设备等
 warnings.filterwarnings("ignore")
 os.environ['TF_CPP_MIN_LOG_LEVEL']="3"
